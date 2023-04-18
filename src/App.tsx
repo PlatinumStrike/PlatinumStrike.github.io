@@ -6,9 +6,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <a href="https://google.ca">
+          open google
+        </a>
         <h1>
-          Welcome to pain and suffering 
+          Justin Hanna
         </h1>
       </header>
     </div>
