@@ -1,0 +1,48 @@
+div[html-include="nav.html"] {
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+}
+
+#nav_spacer {
+    height: calc(6vh + 3vw);
+}
+
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: stretch;
+    padding: 0 4vw;
+
+    background-color: var(--nav_background);
+}
+
+.nav_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 10vw;
+
+    font-family: var(--nav_font);
+    font-size: 1.5vw;
+
+    color: var(--text_color);
+    background-color: var(--nav_background);
+
+    text-decoration: none;
+    transition: 0.15s;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.nav_item:hover {
+    filter: hue-rotate(30deg);
+}
+
+.nav_title {
+    margin-right: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
